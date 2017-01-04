@@ -40,14 +40,10 @@ namespace UnitOfWorkPattern.Repository
         /// <param name="disposing">The dispose indicator.</param>
         private void Dispose(bool disposing)
         {
-            if (disposing)
-            {
-                if (_dbContext != null)
-                {
-                    _dbContext.Dispose();
-                    _dbContext = null;
-                }
-            }
+            if (!disposing) return;
+            if (_dbContext == null) return;
+            _dbContext.Dispose();
+            _dbContext = null;
         }
     }
 }

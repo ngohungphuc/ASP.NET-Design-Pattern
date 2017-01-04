@@ -38,3 +38,15 @@ D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debu
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\obj\Debug\UnitOfWorkPattern.Tests.csprojResolveAssemblyReference.cache
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\obj\Debug\UnitOfWorkPattern.Tests.dll
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\obj\Debug\UnitOfWorkPattern.Tests.pdb
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Autofac.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Service.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Model.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\EntityFramework.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Repository.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Autofac.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Service.pdb
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Model.pdb
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\EntityFramework.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Repository.pdb
