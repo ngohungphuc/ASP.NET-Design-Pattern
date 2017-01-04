@@ -1,0 +1,11 @@
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\obj\Debug\UnitOfWorkPattern.Service.csprojResolveAssemblyReference.cache
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\bin\Debug\UnitOfWorkPattern.Service.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\bin\Debug\UnitOfWorkPattern.Service.pdb
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\bin\Debug\UnitOfWorkPattern.Model.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\bin\Debug\UnitOfWorkPattern.Repository.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\bin\Debug\EntityFramework.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\bin\Debug\UnitOfWorkPattern.Model.pdb
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\bin\Debug\UnitOfWorkPattern.Repository.pdb
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\bin\Debug\EntityFramework.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\obj\Debug\UnitOfWorkPattern.Service.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Service\obj\Debug\UnitOfWorkPattern.Service.pdb

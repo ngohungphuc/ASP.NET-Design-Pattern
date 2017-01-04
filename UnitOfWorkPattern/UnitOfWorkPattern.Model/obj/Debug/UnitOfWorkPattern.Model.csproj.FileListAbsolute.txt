@@ -1,0 +1,10 @@
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\bin\Debug\UnitOfWorkPattern.Model.dll.config
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\bin\Debug\UnitOfWorkPattern.Model.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\bin\Debug\UnitOfWorkPattern.Model.pdb
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\bin\Debug\EntityFramework.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\bin\Debug\EntityFramework.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\obj\Debug\UnitOfWorkPattern.Model.csprojResolveAssemblyReference.cache
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\obj\Debug\UnitOfWorkPattern.Model.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Model\obj\Debug\UnitOfWorkPattern.Model.pdb
