@@ -13,6 +13,8 @@ Unit of work class is use for 1 sychornorous save method between class
 Call from person and country service class to repo class to get id
 
 Country and person service class is derived from entity service class so that we have the CRUD implement and getid function we wrote
+and entities services class use unit of work class
+
 
 ##For mvc project
 From controller -> services -> repository

@@ -14,7 +14,6 @@ D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debu
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Tests.dll.config
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Tests.dll
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Tests.pdb
-D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Newtonsoft.Json.dll
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\System.Web.Helpers.dll
@@ -26,7 +25,6 @@ D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debu
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.dll
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\System.Web.Optimization.dll
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.pdb
-D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Newtonsoft.Json.xml
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\System.Web.Helpers.xml
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\System.Web.Mvc.xml
@@ -50,3 +48,13 @@ D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debu
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Autofac.Integration.Mvc.xml
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\EntityFramework.xml
 D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\UnitOfWorkPattern.Repository.pdb
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Castle.Core.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Moq.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Castle.Core.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Moq.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Effort.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\NMemory.dll
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\Effort.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\SourceCode\Asp.Net-Pattern\UnitOfWorkPattern\UnitOfWorkPattern.Tests\bin\Debug\NMemory.xml
