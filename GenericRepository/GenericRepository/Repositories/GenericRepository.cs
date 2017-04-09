@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GenericRepository.Repositories
 {
-    public abstract class GenericRepository<C, T> : IGenericRepository<T> where T : class where C : DbContext, new()
+    public abstract class GenericRepository<TC, T> : IGenericRepository<T> where T : class where TC : DbContext, new()
     {
         internal DbSet<T> DbSet;
 
-        public C Context { get; set; } = new C();
+        public TC Context { get; set; } = new TC();
 
         public virtual void Add(T entity)
         {
@@ -44,15 +44,6 @@ namespace GenericRepository.Repositories
                 query = query.Include(includeProperty);
 
             return orderBy?.Invoke(query).ToList() ?? query.ToList();
-
-            //if (orderBy != null)
-            //{
-            //    return orderBy(query).ToList();
-            //}
-            //else
-            //{
-            //    return query.ToList();
-            //}
         }
 
         public virtual IQueryable<T> GetAll()

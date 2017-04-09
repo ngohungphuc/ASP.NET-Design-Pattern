@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GenericRepository.Models
+﻿namespace GenericRepository.Models
 {
     /// <summary>
     /// This will be base class for model since all of entities will have Id column

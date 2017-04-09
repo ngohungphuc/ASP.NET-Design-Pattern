@@ -1,27 +1,23 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using GenericRepository.Repositories;
 
 namespace GenericRepository.UnitOfWork
 {
-    public class UnitOfWork<C, T> where T : class where C : DbContext, IDisposable, new()
+    public class UnitOfWork<TC, T> where T : class where TC : DbContext, IDisposable, new()
     {
-        private C context = new C();
+        private readonly TC _context = new TC();
         private bool _disposed = false;
-        private GenericRepository<C, T> _repository;
+        private GenericRepository<TC, T> _repository;
 
-        public UnitOfWork(GenericRepository<C, T> repository)
+        public UnitOfWork(GenericRepository<TC, T> repository)
         {
             _repository = repository;
         }
 
         public void Save()
         {
-            context.SaveChanges();
+            _context.SaveChanges();
         }
 
         protected virtual void Dispose(bool disposing)
@@ -29,11 +25,15 @@ namespace GenericRepository.UnitOfWork
             if (_disposed) return;
             if (disposing)
             {
-                context.Dispose();
+                _context.Dispose();
             }
             _disposed = true;
         }
 
+        /// <summary>
+        /// SuppressFinalize should only be called by a class that has a finalizer.
+        /// It's informing the Garbage Collector (GC) that this object was cleaned up fully.
+        /// </summary>
         public void Dispose()
         {
             Dispose(true);
