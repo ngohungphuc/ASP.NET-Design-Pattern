@@ -253,7 +253,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Filters\ValidModelAttribute.cs" />
-    <Compile Include="Interfaces\IGenericRepository.cs" />
+    <Compile Include="Repositories\IGenericRepository.cs" />
+    <Compile Include="UnitOfWork\IUnitOfWork.cs" />
     <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\BaseEntityWithTypeId.cs" />
     <Compile Include="Models\IBaseEntity.cs" />
@@ -269,6 +270,8 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

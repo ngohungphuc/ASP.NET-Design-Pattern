@@ -1,21 +1,39 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using GenericRepository.Repositories;
 
 namespace GenericRepository.UnitOfWork
 {
-    public class UnitOfWork<TC, T> where T : class where TC : DbContext, IDisposable, new()
+    public class UnitOfWork : IUnitOfWork
     {
-        private readonly TC _context = new TC();
-        private bool _disposed = false;
-        private GenericRepository<TC, T> _repository;
+        private readonly DbContext _context;
+        private bool _disposed;
 
-        public UnitOfWork(GenericRepository<TC, T> repository)
+        public UnitOfWork(DbContext context)
         {
-            _repository = repository;
+            if (context == null)
+                throw new ArgumentNullException("context");
+
+            _context = context;
         }
 
-        public void Save()
+        public Dictionary<Type, object> repositories = new Dictionary<Type, object>();
+
+        public IGenericRepository<T> Repository<T>() where T : class
+
+        {
+            if (repositories.Keys.Contains(typeof(T)) == true)
+            {
+                return repositories[typeof(T)] as IGenericRepository<T>;
+            }
+            IGenericRepository<T> repository = new GenericRepository<T>(_context);
+            repositories.Add(typeof(T), repository);
+            return repository;
+        }
+
+        public virtual void Save()
         {
             _context.SaveChanges();
         }
@@ -38,6 +56,11 @@ namespace GenericRepository.UnitOfWork
         {
             Dispose(true);
             GC.SuppressFinalize(this);
+        }
+
+        public IGenericRepository<T> GetRepository<T>() where T : class
+        {
+            return new GenericRepository<T>(_context);
         }
     }
 }

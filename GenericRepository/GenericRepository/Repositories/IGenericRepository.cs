@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace GenericRepository.Interfaces
+namespace GenericRepository.Repositories
 {
     public interface IGenericRepository<T> where T : class
     {
@@ -11,9 +11,12 @@ namespace GenericRepository.Interfaces
 
         T GetById(object id);
 
-        IEnumerable<T> Filter(Expression<Func<T, bool>> filter = null,
+        IEnumerable<T> Filter(
+            Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-            string includeProperties = "");
+            string includeProperties = "",
+            int? page = null,
+            int? pageSize = null);
 
         IQueryable<T> FindBy(Expression<Func<T, bool>> predicate);
 
